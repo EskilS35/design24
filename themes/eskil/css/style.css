@@ -5,6 +5,7 @@
     padding: 0;
 }
 
+
 ol, ul {
     padding-left: 1.5em;
 }
@@ -22,10 +23,17 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    
+
 }
 
 .main {
     flex: 1 0 auto;
+    padding: 2em 2em 2em 2em;
+}
+
+.main > p > img{
+    max-width: 500px;
 }
 
 .header, .footer {
@@ -45,8 +53,8 @@ body {
     padding: 3em 3em 3em 0;
 }
 
-.logo, img{
-    width: 300px;
+.logo > a > img{
+    width: 200px;
 }
 
 
@@ -112,6 +120,8 @@ h1, h2, h3, h4, h5, h6 {
 img {
     max-width: 100%;
 }
+
+
 
 /* BELOW ARE PREPARED STYLES FOR CODE/PRE/BLOCKQUOTE, FEEL FREE TO REMOVE IT  */
 

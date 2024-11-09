@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: image/bth.png
 Tagline: My portfolio.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      icon: wifi
+    - title: Link till sidans github repo.
+      url: https://github.com/EskilS35/design24
       icon: github
 ---
+
