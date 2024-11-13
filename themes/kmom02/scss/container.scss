@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+html, body {
+    height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em 2em 2em 2em;
+    background: lightgreen;
+}
+
+.header, .footer {
+    flex: 0 0 auto;
+    background: lightgrey;
+}
+
+.main{
+    width: 100%;
+    max-width: 64rem;
+    padding: 2rem;
+    margin: 0 auto;
+
+}
+

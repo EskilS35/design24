@@ -1,5 +1,5 @@
 ---
-Logo: image/bth.png
+Logo: image/bth.png?w=200
 Tagline: My portfolio.
 Social:
     - title: Link till html Validering
