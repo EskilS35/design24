@@ -1,17 +1,14 @@
 body{
     display: flex;
     flex-direction: column;
+    font-family: $text-font;
+      
 }
 
 html, body {
     height: 100%;
 }
-
-.main {
-    flex: 1 0 auto;
-    padding: 2em 2em 2em 2em;
-    background: lightgreen;
-}
+    
 
 .header, .footer {
     flex: 0 0 auto;
@@ -19,10 +16,12 @@ html, body {
 }
 
 .main{
+    flex: 1 0 auto;
+    padding: 2em 2em 2em 2em;
+    background: $main-background-color;
     width: 100%;
     max-width: 64rem;
     padding: 2rem;
     margin: 0 auto;
 
 }
-

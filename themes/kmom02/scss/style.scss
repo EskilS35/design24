@@ -1,3 +1,5 @@
+@import '../../node_modules/normalize.css/normalize';
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Guerrilla&family=Sriracha&display=swap');
 
 @import '../../shared/fontawesome/scss/fontawesome';
@@ -7,7 +9,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 
 
-@import '../../node_modules/normalize.css/normalize';
 @import 'variables';
 
 @import 'typegraphy';
