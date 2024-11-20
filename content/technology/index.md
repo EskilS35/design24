@@ -1,36 +1,23 @@
 ---
-Title: Technologies
-Description: This is my technologies page.
+Title: Teknologier
+Description: This is my tech page.
 Template: technologies
+techs:
+   - name: CSS
+     class: css
+   - name: HTML
+     class: html
+   - name: GIT
+     class: git
+   - name: JAVASCRIPT
+     class: javascript
+   - name: PHP
+     class: php
+   - name: PYTHON
+     class: python
+   - name: SQLITE
+     class: sqlite
 ---
 
-Technologies
+Teknologier
 ==========================
-
-<div class="box">
-CSS
-</div>
-
-<div class="box">
-HTML
-</div>
-
-<div class="box">
-JAVASCRIPT
-</div>
-
-<div class="box">
-PHP
-</div>
-
-<div class="box">
-PYTHON
-</div>
-
-<div class="box">
-GIT
-</div>
-
-<div class="box wide">
-SQLITE
-</div>
