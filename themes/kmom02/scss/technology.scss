@@ -9,6 +9,55 @@
     justify-self: center;
 }
 
+.css{
+  grid-column: span 1;
+}
+.html{
+  grid-column: span 2;
+}
+.javascript{
+  grid-column: span 2;
+}
+.php{
+  grid-column: span 1;
+}
+.git{
+  grid-column: span 1;
+}
+.sqlite{
+  grid-column: span 2;
+}
+.python{
+  grid-column: span 3;
+}
+
+@media (max-width: 768px) {
+  .css{
+    grid-column: span 1;
+  }
+  .html{
+    grid-column: span 1;
+  }
+  .javascript{
+    grid-column: span 1;
+  }
+  .php{
+    grid-column: span 1;
+  }
+  .git{
+    grid-column: span 1;
+  }
+  .sqlite{
+    grid-column: span 1;
+  }
+  .python{
+    grid-column: span 1;
+  }
+  .technology{
+    grid-template-columns: 1fr;
+  }
+}
+
 
 .box{
     border: 1px solid rgb(0, 0, 0);
