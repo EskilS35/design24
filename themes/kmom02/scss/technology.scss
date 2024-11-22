@@ -33,25 +33,25 @@
 
 @media (max-width: 768px) {
   .css{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .html{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .javascript{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .php{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .git{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .sqlite{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .python{
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .technology{
     grid-template-columns: 1fr;

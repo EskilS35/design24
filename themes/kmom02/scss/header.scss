@@ -1,7 +1,6 @@
 .header {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
   justify-content: space-between;
   align-items: center;
   background-color: #faa;
@@ -15,15 +14,14 @@
   align-items: center;
 
   .title {
-    margin-left: 3em;
+    margin-left: 2em;
   }
 }
 
 
-
 .nav {
   a {
-    font-size: 2em;
+    font-size: x-large;
   }
 }
 

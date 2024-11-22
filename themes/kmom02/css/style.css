@@ -6452,7 +6452,7 @@ body {
   flex: 1 0 auto;
   padding: 2em;
   background: #90ee90;
-  width: 100%;
+  width: 80%;
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
@@ -6461,7 +6461,6 @@ body {
 .header {
   display: flex;
   flex-direction: row;
-  padding: 2rem;
   justify-content: space-between;
   align-items: center;
   background-color: #faa;
@@ -6474,11 +6473,11 @@ body {
   align-items: center;
 }
 .site-header .title {
-  margin-left: 3em;
+  margin-left: 2em;
 }
 
 .nav a {
-  font-size: 2em;
+  font-size: x-large;
 }
 
 .hidden {
@@ -6505,6 +6504,7 @@ body {
   align-items: center;
   background-color: #333;
   color: #fff;
+  max-width: 100%;
 }
 
 .social a {
@@ -6589,25 +6589,25 @@ pre code {
 
 @media (max-width: 768px) {
   .css {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .html {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .javascript {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .php {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .git {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .sqlite {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .python {
-    grid-column: span 1;
+    grid-column: span 3;
   }
   .technology {
     grid-template-columns: 1fr;
