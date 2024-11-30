@@ -7,14 +7,14 @@ techs:
      class: css
    - name: HTML
      class: html
-   - name: GIT
-     class: git
    - name: JAVASCRIPT
      class: javascript
    - name: PHP
      class: php
    - name: PYTHON
      class: python
+   - name: GIT
+     class: git
    - name: SQLITE
      class: sqlite
 ---
