@@ -11,24 +11,37 @@
 
 .css{
   grid-column: span 1;
+  background-color: $header-background-color;
 }
 .html{
   grid-column: span 2;
+  background-color: $header-background-color;
+
 }
 .javascript{
   grid-column: span 2;
+  background-color: $header-background-color;
+
 }
 .php{
   grid-column: span 1;
+  background-color: $header-background-color;
+
 }
 .git{
   grid-column: span 1;
+  background-color: $header-background-color;
+
 }
 .sqlite{
   grid-column: span 2;
+  background-color: $header-background-color;
+
 }
 .python{
   grid-column: span 3;
+  background-color: $header-background-color;
+
 }
 
 @media (max-width: 768px) {

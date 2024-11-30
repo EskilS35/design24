@@ -8,7 +8,9 @@ body {
 html,
 body {
   height: 100%;
+  background-color: $body-background-color;
 }
+
     
 
 .header,
@@ -25,5 +27,4 @@ body {
   max-width: 64rem;
   padding: 2rem;
   margin: 0 auto;
-
 }
