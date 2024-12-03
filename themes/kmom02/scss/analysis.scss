@@ -1,0 +1,54 @@
+.landingpage {
+    display: grid;
+    gap: 1.96rem 1.96rem;
+    margin-bottom: 1.96rem;
+}
+
+.landingpage h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+
+.colors{
+  grid-column: span 3;
+  background-color: $header-background-color;
+  color: white;
+}
+
+.load{
+  grid-column: span 3;
+  background-color: $header-background-color;
+  color: white;
+
+}
+.design_principles{
+  grid-column: span 3;
+  background-color: $header-background-color;
+  color: white;
+}
+
+
+.box{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 1.96rem;
+}
+
+.box:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.analysis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .analysis .article{
+    width: 60%;
+  }
+  
+  .analysis .menu{
+    width: 30%;
+  }
