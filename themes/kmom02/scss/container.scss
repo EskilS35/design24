@@ -2,13 +2,16 @@ body {
   display: flex;
   flex-direction: column;
   font-family: $text-font;
-      
+  background-image: $body-background-color;
+  height: 100%;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;  
 }
 
 html,
 body {
   height: 100%;
-  background-color: $body-background-color;
 }
 
     
